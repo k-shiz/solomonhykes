@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проект</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href = "css/style.css">
+</head>
+<body>
+    <nav>
+        <center><ul>
+            <li><section class = "menu-item" section\>
+                <a href = "#vvedenie">Введение</a>
+            </li>
+            <li><section class = "menu-item"section\>
+            <a href = "#info">Информация</a>
+            </li>
+            <li><section class = "menu-item"section\>
+                <a href = "#feedback">Обратная связь</a>
+                </li>
+            
+        </ul></center>
+    </nav>
+    <header>
+        <h1>Соломон Хайкс</h1>
+        <img src="\img\logo.svg" alt = "logo" width = 300px> <!--ПОМЕНЯТЬ ПУТЬ К ФАЙЛУ -->
+    </header>
+    <main>
+        <section class="vvedenie" id = "vvedenie">
+            <h2>Введение</h2>
+            <img src = "https://thehrd.ru/media/local/images/solomon_jpg_1437725645.jpg" alt = "solomon" width = 300px>
+                <p>
+                Соломон Хайкс, создатель Docker, технологии, которую обожают разработчики, ведь она пакует код в контейнеры и доставляет его на серверы. Работает как виртуальная машина, но намного быстрее. Docker начинался как side-project в компании dotCloud, но когда оказалось, что продукт популярен, компания пережила пивот и вскоре превратилась в «единорога».                    
+                </p>
+
+                <li>
+                История Docker — это рассказ о стартапе, покорившем IT-индустрию. Его создатель Соломон Хайкс придумал, как «упаковать» приложение со всеми необходимыми для его работы компонентами, передать и развернуть в нужной среде. Когда эта технология переносимых автономных контейнеров впервые была представлена публике на конференции PyCon 2013, на её презентацию пришли около тысячи зрителей. Хайкс так разволновался, что сделал ошибку в одной из самых известных айтишных фраз, написав «Hello wowrld».
+                </li>
+
+                <li>
+                Docker действительно произвел wow-эффект на представителей IT-индустрии, ведь технология позволяла быстро перемещать код и запускать его на любой платформе без использования дополнительных программ. А это существенно экономит как физические, так и материальные ресурсы.
+                </li>
+                <li><del>Соломон Хайкс родился фо франции</del></li>
+                <blockquote>"Я не знал, получится ли у меня, я не знал, стану известным, и я хотел создать что-то полезное не только для себя, но и для всего ИТ-сообщества в мире."<cite> - Соломон Хайкс</cite></blockquote>
+        <section class="info" id = "info">
+            <h2>Информация</h2>
+                    <ul class="info">
+                        <li><a href = "bio.html">Биография</a></li>
+                        <li><a href="achievements.html">Основные достижения</a></li>
+                        <li><a href="facts.html">Интересные факты</a></li>
+                        <li><a href="termins.html" id = "termins">Список терминов</a></li>
+        </section>
+        <section class ="period">
+            <h2>Основные этапы</h2>
+                <table class = "dates">
+                    <caption>Периоды жизни и деятельности</caption>
+                    <thead>
+                            <tr>
+                                <th>Этап</th>
+                                <th>Годы</th>
+                                <th>Описание</th>
+                                <th>Примечание</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                            </tr>
+                        </tbody>                   
+                </table>
+        </section>
+        <section class = "feedback" id = "feedback">
+        <h2>Обратная связь</h2>       
+        <form id = "example-form" action = "">
+            <label for = "topic">Тема</label><br>
+            <select name = "topic" id = "topic">
+            <option value = "1">Предложить идею</option>
+            <option value = "2">Сообщить об ошибке</option>
+            <option value = "3">Предложить сотрудничество</option>
+            <option value = "4">Другое</option></label></select><br>
+
+            <label for = "name">Имя</label><br>
+            <input type = "text" name="name" id = "name" placeholder="Например: Дмитрий" required><br>
+            <label for = "mail1">Email</label><br>
+            <input type = "email" name="mail1" id = "mail1" placeholder="Например: dmitriy@mail.ru"required><br>
+            <label for = "bday">Дата рождения</label><br>
+            <input type="date" name="bday" id = "bday"><br>
+            <label for = "telephone">Номер телефона</label><br>
+            <input type="tel" name="telephone" id = "telephone" placeholder="88005553535" size="20" minlength="9" maxlength="14"><br>           
+            <label for = "fdbck">Текст сообщения</label><br>
+            <textarea type = "text" name="fdbck" id = "fdbck" placeholder="Напишите ваше сообщение"required></textarea><br>
+            
+              
+            <p id = "gender">Пол</p>
+            <input type = "radio" id = "male" name = "gender">
+            <label for="male" id = "male">Мужской</label><br>
+            <input type = "radio" id = "female" name = "gender">
+            <label for="female" id = "male">Женский</label><br>
+            <input type="checkbox" id="newsletter" name="subscribe" value="newsletter">
+            <label for="newsletter">Подписаться на рассылку</label><br>
+            <input type = "submit" class="submitButton" id = "submitButton" value = "Отправить">
+            
+        </form>
+        </section>
+    </main>
+    <footer>
+        <p>Ишимов Кирилл 2024</p>
+        <p>
+            <a href ="https://vk.com/" target ="_blank" >Вы также можете найти меня здесь</a>
+        </p>
+            <p>Телефон:</p><a href ="tel:880005553535" target ="_blank">880005553535</a>
+            <br>
+            <a href ="mailto:kirill@mail.ru" target ="_blank">Почта</a>
+            <br>
+        <a href = "https://www.tadviser.ru/index.php/%D0%9F%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0:%D0%A5%D0%B0%D0%B9%D0%BA%D1%81_%D0%A1%D0%BE%D0%BB%D0%BE%D0%BC%D0%BE%D0%BD_%28Solomon%C2%A0Hykes%29" target ="_blank"><img src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA+UlEQVR4AWP4Tzug6F7gw0AI09IBG4CYkb4OwAT19HcAJmAm2gFvTp/5//b8eUoxyByio4IB2fK9bPz/90srUorB5qABb0IOALkcrPmQkRmlGOoAzKgg5ACwxgMaOtgwNotwqcXlgHq8Dvh8797/a23tWPH17h4MR5wICgGJ49SDA3iTmwtAvkL2OdhyMsA1ajkA7EsyQf1AO+ANEGvS2QGYUUF/B2CCUPo7ADMqFOnrAEywdMAdMKKjIHQkZkNEQTRSi+KBr4y86ewAzKAfSAcw098BmEFPfwcgmuWUOwC52U2KA5gp7xlhdlpAjViiEt5w75xS3j0HAIuv9bT1maiWAAAAAElFTkSuQmCC" alt ="Иконка"></a>
+        <a href = "https://ru.wikipedia.org/wiki/Docker" target ="_blank"><img src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAnklEQVR4AeTNIQiDQABG4b+u17X1aF6PK3YEO9iMJqPVau82y4FgMezS0oVLhqsHtrcqeqzDXv3CEz/6L4yTtZM3dnHmPTtjzXZAXKYVo4agkU2GI2Lloc6JDez1+flswMu1EQZ3xlE7lK8eKDkjtwE+crBMV+wesKmCiisGGepZIfQJpMj9SNb2MYWrChjVkULuCyCfRvsdmBieyQQAsoDk/9ryhFMAAAAASUVORK5CYII=" alt ="Иконка"></a>
+        <a href = "https://mfasoft.ru/docker" target ="_blank"><img src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAABSklEQVR4AWJwL/DBi+fOmVcPxIDe6RBXYSCKwvAO3o4Qz4JgAygCIaSWgGMPGMDUYFFI8DRsoIrFDL1ikps/M8MBCOKoHs7Xdmgl9CrrPuspWLAQJeZ6RVTF0igwBc1hPT+A9PSeDraFoYvrXYTed0Ch18ogzo+pUucnnCNA7Snbd3oEVbR9rSeAy8Xq1mXHMY78HeqjJdXDXt3lnATtQpdgIZrAgoUosbjnUf9kAalLGFBih7hD1C7OeDFmOp78O2wEyGcUe/ab3J5ZfDrm7MBrAbzyaDK5/Rz8/Sst3NX2gz9NnXtbsUR084XPYkfMgQ4FNuwP7l0aohb2LNjbO8yBCEaCBWN6D1Exjuk9JIet/QAyF3trHcRdI43rNYXeXQCloZPrnco3JoL28eaG7JreE0GeD88Pvbl2fgAFlBhR9nSQKEbyqNB7ABhm81gmcv9lAAAAAElFTkSuQmCC" alt ="Иконка"></a>
+        <a href = "https://habr.com/ru/articles/822707/" target ="_blank"><img src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAMFBMVEVHcExfn7xfn7xfn7xfn7z+//+Puc5ZnLre6vCkxda60+Dv9fjO3+h7rsZqpcBQmLfQ5/9SAAAABHRSTlMAy3M67HfsvAAAASBJREFUOI2FUwmSgzAMozTx7eT/v11Rrg1lFzEDAYtYlp1pAuZXucFrnla876Ir3g/xlfFfvBTkHz9wy+F9nkZ9TEmMR7Zd6ZGBl6sXzeRMXVhbjn2Rat3cTUIp2hE/CZ2iiloFw0prVwKTmYdUS8GNKL926BbkUT+Qqv2qgUl9i7tXFaM2EFCdh9cNGiDwQGhBkrITxKLpSChd/IhXrO0oY0thofXEYgTnqCFQ4y7CA4Vq8lAFhO9h1BGmpjT40CBBYRJMcCEyRZJxh0QjJAJ2ehLdGIWsAiuUCI34NRNHs2Dd4rZQb0vvvwmMfmn2rnp2ciQULYaZIS63BPzfliYzlb8IhT7mtSthH1r+GugPXtexv2J+PjjPR+/x8D4c/x+lPxUzghXNtgAAAABJRU5ErkJggg==" alt ="Иконка"></a>
+    </footer>
+</body>
+</html>
